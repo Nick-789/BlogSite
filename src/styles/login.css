@@ -1,0 +1,70 @@
+/* Base styles */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f0f2f5;
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+/* Login container */
+.login-container {
+  max-width: 400px;
+  margin: 50px auto;
+  background-color: #34495e; /* Dark blue-gray */
+  border-radius: 10px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+  padding: 30px 40px 30px 30px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.login-container.pop {
+  transform: scale(1.05);
+}
+
+/* Login box */
+.login-box {
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 20px;
+  font-size: 28px;
+  color: #ecf0f1; /* Light gray */
+}
+
+/* Input fields */
+input {
+  width: 100%;
+  padding: 12px;
+  margin: 12px 0;
+  border: none;
+  border-radius: 5px;
+  background-color: #ecf0f1; /* Light gray */
+  color: #333;
+  font-size: 16px;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Login button */
+button {
+  background-color: #3498db; /* Bright blue */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 6px 12px; /* Half of original padding */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 16px;
+  width: 100%;
+  display: block;
+  margin: 0 auto; /* Center alignment */
+}
+
+button:hover {
+  background-color: #2980b9; /* Slightly darker blue */
+}
